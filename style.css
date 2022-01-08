@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:tomato;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: grey;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: rgb(224, 224, 224);
+    color: gray;
+  }
+  .my_nav_bar
+{
+    position:sticky;
+    top:0;
+    z-index:99999
+}
